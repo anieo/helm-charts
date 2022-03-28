@@ -2,9 +2,11 @@ loki:
   enabled: true
 
 promtail:
-  enabled: true
+  enabled: false
 
 fluent-bit:
+  enabled: false
+vector:
   enabled: false
 
 grafana:
@@ -16,7 +18,7 @@ grafana:
     tag: 8.3.5
 
 prometheus:
-  enabled: false
+  enabled: true
 
 filebeat:
   enabled: false
